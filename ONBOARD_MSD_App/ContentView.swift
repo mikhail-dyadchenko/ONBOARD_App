@@ -29,9 +29,9 @@ struct ContentView: View {
             }) {
                 Text("Подписаться")
                     .padding()
-                    .background(Color.blue)
+                    .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.orange]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
                     .foregroundColor(.white)
-                    .cornerRadius(8)
+                    .cornerRadius(16)
             }
             .padding()
             
